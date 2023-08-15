@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color:var(--primary-textColor);
+    background-color:var(--body-bgColor);
+}
+
+/*---Utilities classess---*/
+:root{
+    --nav-bgColor:#ffffff;
+    --body-bgColor:#ffffff;
+    --btn-bgColor:#fca311;
+    --alternative-color:#f7f7f7;
+    --primary-textColor:#1f1f1f;
+    --hover-btnBG:#ffc76c;
+    --hover-textColor:#fca311;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.margin-inline {
+    margin-inline: 40px;
+}
+
+.margin-block {
+    margin-block: 40px;
+}
+
+.toggle {
+    display: none;
+}
+
+.btn-login-signup {
+    width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    /* background-color:var(--btn-bgColor); */
+    font-size: 15px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+/*---Header style---*/
+#logo {
+    width: 40px;
+}
+.logo{
+    margin-left: 60px;
+}
+
+.nav-bar {
+    height: 80px;
+    box-shadow: 0 0 30px 4px #5f5a5a33;
+    color:var(--primary-textColor);
+    background-color:var(--nav-bgColor);
+    justify-content: space-around !important;
+}
+
+.nav-items {
+    flex-basis: 70%;
+}
+
+.nav-items nav ul li {
+    list-style: none;
+}
+
+.nav-items nav ul {
+    justify-content: flex-end !important;
+
+}
+.btns{
+    margin-left: 25px;
+}
+.nav-links{
+    justify-content: flex-end;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    margin-inline: 15px;
+    color:var(--primary-textColor);
+}
+nav ul li a:hover{
+    color:var(--hover-textColor);
+}
+
+.active-line {
+    border-bottom: 3px solid #ffa500;
+}
+
+.sign-up {
+    background-color:var(--btn-bgColor);
+    margin-left: 10px;
+    border: none;
+    color:var(--primary-textColor);
+}
+.sign-up:hover{
+    background-color:var(--hover-btnBG);
+}
+.logo-sibling-text {
+
+    margin-left: 5px;
+}
+
+.nav-login-btn {
+    justify-content: flex-end !important;
+    /* margin-right: 60px; */
+}
+
+/*---Main section style---*/
+.recruitment-text-box p {
+    margin-top: 20px;
+}
+.recruitment-text-box{
+    width: 35%;
+    height: 100%;
+}
+.recruitment-image{
+    width: 40%;
+}
+.recruitment-image img{
+    width: 100%;
+    height: 100%;
+}
+.img-score img{
+    width: 385px;
+}
+.ready-to {
+    justify-content: space-evenly !important;
+    position: relative;
+}
+
+.cehck-score {
+    width: 185px;
+    height: 400px;
+    background-color:var(--alternative-color);
+    /* color: #000000; */
+    border-radius: 15px;
+    /* margin-bottom: 20px; */
+    box-shadow: 1px 1px 10px white;
+    
+}
+
+
+.login-instant {
+    width: 210px;
+    height: 350px;
+    background-color:var(--btn-bgColor);
+    /* color: #000000; */
+    border-radius: 15px;
+
+
+}
+.improve-score{
+    width:40%;
+    height: 345px;
+}
+
+.check-score-btn,
+.login-now-btn {
+    background-color:var(--btn-bgColor);
+    color:var(--primary-textColor);
+    border: none;
+    text-transform: uppercase;
+    
+
+}
+.check-score-btn:hover{
+    background-color: var(--hover-btnBG);
+    
+}
+
+.ln-box {
+    margin-bottom: 20px;
+}
+
+.ch-box {
+    margin-top: 20px;
+}
+.improve-score{
+    width: 30%;
+    margin-bottom: 15px;
+}
+.img-score h2{
+    margin-bottom: 30px;
+}
+.job-box {
+    width: 30%;
+    height: 300px;
+    background-color:var(--alternative-color);
+    box-shadow: 0px 1px 3px var(--alternative-color );
+    border-radius: 10px;
+    color: var(--primary-textColor);
+}
+.apply{
+    width: 80%;
+    height: 35px;
+    background-color:var(--btn-bgColor);
+    margin: 0 auto;
+    padding: 7px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+.hiring-process{
+    justify-content: space-evenly !important;
+}
+.hiring-img img{
+    width: 400px;
+}
+.hiring-des{
+    width: 50%;
+}
+.hiring-des h2{
+    margin-bottom: 20px;
+}
+.ecm{
+    justify-content: space-evenly !important;
+}
+.ecm-des{
+    width: 50%;
+}
+.ecm-des h2{
+    margin-bottom: 20px;
+}
+.ecm-img img{
+    width: 400px;
+}
+.job-box img {
+    width: 200px;
+
+}
+
+.find-jobs {
+
+
+    width: 100%;
+    height: 350px;
+    justify-content: space-evenly !important;
+}
+
+.o-select {
+    background-color: #96ffa7;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
+
+.o-select:focus:active:visited {
+    border: none;
+
+}
+
+/* .resume-parsing-text-box p {
+  margin-top: 20px;
+}
+.simplify-hiring-text-box p {
+  margin-top: 20px;
+}
+.bgc-gray {
+  background-color: gray;
+}
+.footer-content {
+  justify-content: space-around !important;
+  font-size: 2rem;
+  padding: 20px;
+}
+.image-box {
+  padding: 112px 0 0 98px;
+  font-size: 2rem;
+  width: 287px;
+  height: 281px;
+}
+.description {
+  padding: 112px 0 0 161px;
+  font-size: 2rem;
+  width: 530px;
+  height: 280px;
+} */
+/*--Footer section style*/
+footer{
+    background-color: var(--hover-btnBG);
+
+}
+.footer-content{
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    /* background-color: var(--hover-btnBG); */
+    position: relative;
+}
+.logo-footer{
+    margin: 90px 0 0px 95px;
+
+    width: 10%;
+    text-align: left;
+    justify-content:space-evenly !important;
+    z-index: 10;
+    align-self: flex-start;
+    
+
+}
+.logo-footer img{
+    width: 50px;
+    float: left;
+}
+.menu-table{
+    margin-right: 145px;
+
+}
+.menu-table table a{
+    text-decoration: none;
+    color: var(--primary-textColor);
+}
+.ring{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    opacity: 0.5;
+    z-index: 1;
+    
+
+}
+.ring img{
+    width: 300px;
+}
+/* .des{
+    align-self: flex-start;
+    width: 180px;
+    
+} */

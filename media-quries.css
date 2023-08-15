@@ -1,0 +1,254 @@
+/*Responsive Design*/
+/*--break point for larg size devices---*/
+@media screen and (max-width:1024px) {
+
+  .nav-bar{
+    justify-content:space-between !important;
+    position: relative;
+    overflow: initial;
+  }
+  .toggle{
+    display: block;
+  }
+
+  .nav-items{
+    position: absolute;
+    left: -100%;
+    top: 80%;
+    background-color: #b6b6b6;
+    width: 100%;
+    padding-block: 20px;
+  
+    
+  }
+  .nav-items.active{
+    left: 0;
+  }
+ 
+    
+
+  .nav-items ul{
+    flex-direction: column;
+    justify-content: center !important;
+    
+
+  }
+  .btns{
+  
+display: flex;
+flex-direction: column;
+    margin-top: 70px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+  }
+.sign-up{
+  width: 290px;
+  margin-left: 0;
+}
+
+  .logo, .toggle{
+    margin-inline: 60px;
+}
+.img-score img{
+  width: 300px;
+}
+.hiring-img img{
+  width: 300px;
+}
+.ecm-img img{
+  width: 300px;
+}
+.menu-table{
+  margin-right: 30px;
+}
+.logo-footer{
+  margin-left: 60px;
+}
+}
+
+
+/*-----------------------------------------*/
+/*--break point for medium size devices---*/
+@media screen and (max-width: 767px) {
+
+    .toggle{
+      display: block;
+    }
+   
+    .nav-items,.nav-login-btn{
+      display: none;
+    }
+    .nav-bar{
+        justify-content: space-around !important;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    #logo{
+      width: 30px;
+    }
+    .logo{
+        margin-right:35px;
+        margin-left: -20px;
+    }
+    .recruitment-text-box{
+      width: 55%;
+      font-size: 12px;
+    }
+.improve-score{
+  width: 45%;
+}
+.job-box{
+  width: 40%;
+  height: 225px;
+}
+.job-box img{
+  width: 130px;
+}
+.apply{
+  width: 55%;
+  height: 28px;
+  font-size: 12px;
+}
+.hiring-img img{
+  width: 240px;
+}
+.img-score img{
+  width: 240px;
+}
+.improve-score{
+  width: 47%;
+  font-size: 12px;
+}
+  .hiring-des{
+    width: 38%;
+    font-size: 12px;
+  }
+  .hiring-des h2{
+    margin-bottom: 5px;
+  }
+  .ecm-des{
+    width: 40%;
+    font-size: 12px;
+  }
+  .ecm-des h2{
+    margin-bottom: 5px;
+  }
+  .ecm-img img{
+    width: 240px;
+  }
+  .logo-footer{
+    /* margin-left: -370px; */
+    margin: 0 0 0 95px;
+    width: 3%;
+    align-self: center !important;
+
+  }
+  .menu-table{
+    margin-right: 20px;
+    margin-top: 24px;
+    font-size: 12px;
+    align-self: center !important;
+  }
+  .ring{
+    left: 117px;
+  }
+  .ring img{
+    width: 200px;
+  }
+  .logo-footer img{
+    width: 34px;
+}
+.des{
+  font-size: 12px;
+  
+}
+.footer-content{
+  /* align-items: center !important; */
+  justify-content:space-between!important;
+  
+  flex-direction: row;
+}
+.logo,.toggle{
+  margin-inline: 12px;
+}
+  }
+/*--break point for small size devices---*/
+@media screen and (max-width:479px) {
+.talent-recruitment{
+  flex-direction: column-reverse;
+}
+.find-jobs{
+  flex-direction: column!important;
+  margin-block:0;
+}
+.recruitment-image{
+  width: 100vw;
+}
+.recruitment-text-box{
+  width: 91vw;
+}
+.img-score img{
+  width: 100vw;
+}
+.improve-score{
+  width: 91vw;
+}
+.ch-box{
+  margin: 20px 130px;
+  text-align: center;
+}
+.hiring-img img{
+  width: 100vw;
+}
+.hiring-des{
+  width: 90vw;
+}
+.ecm{
+  flex-direction: column-reverse;
+}
+.ecm-des{
+  width: 90vw;
+}
+.ecm-img img{
+  width: 100vw;
+}
+.footer-content{
+  height: 190px;
+  flex-direction:column!important;
+  justify-content:center !important;
+  align-items: center;
+  margin-block: 0;
+  margin-top: 10px;
+}
+.ring img{
+  width: 150px;
+}
+.logo-footer{
+  margin-left: 0;
+  width: 100px;
+  margin: 0 0 0 0;
+}
+.menu-table{
+  width: 100px;
+}
+}
+/*---x-small size devices--*/
+@media screen and (max-width:379px) {
+  .ch-box{
+    margin: 20px 65px;
+
+  }
+  .logo{
+    margin-left: 7px;
+    font-size: 10px;
+  }
+  .logo,.toggle{
+    margin-inline: 12px;
+  }
+}
+  
+
+
